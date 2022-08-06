@@ -1,4 +1,3 @@
-import { now } from 'moment'
 import {ether,tokens,EVM_REVERT,ETHER_ADDRESS} from './helpers'
 const Token = artifacts.require('./Token')
 const Exchange = artifacts.require('./Exchange')
