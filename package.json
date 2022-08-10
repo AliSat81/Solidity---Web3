@@ -1,8 +1,7 @@
 {
-  "name": "bootcamp",
+  "name": "exchange",
   "version": "0.2.0",
   "description": "Decentralized Ethereum Token Exchange",
-  "author": "dev@dappuniversity.com",
   "private": true,
   "homepage": ".",
   "engines": {
@@ -42,7 +41,7 @@
     "react-bootstrap": "2.4.0",
     "react-dom": "18.2.0",
     "react-redux": "8.0.2",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "redux": "4.2.0",
     "redux-logger": "3.0.6",
     "regenerator-runtime": "^0.13.9",
@@ -55,9 +54,9 @@
     "web3": "1.7.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -68,5 +67,17 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
+  }
 }
