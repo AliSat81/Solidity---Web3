@@ -88,9 +88,9 @@ contract Exchange {
         emit Cancel(_order.id ,msg.sender ,_order.tokenGet ,_order.amountGet ,_order.tokenGive ,_order.amountGive ,block.timestamp );
     }
     function fillOrder( uint256 _id ) public {
-        require(_id > 0 && _id <= orderCount);
-        require(! orderFilled[_id]);
-        require(! orderCancelled[_id]);
+        require(_id > 0 && _id <= orderCount,  'Error, wrong id');
+        require(! orderFilled[_id] , 'Error, order already filled' );
+        require(! orderCancelled[_id] , 'Error, order already cancelled');
         _Order storage _order = orders[_id];
         _trade(_order.id ,_order.user ,_order.tokenGet ,_order.amountGet ,_order.tokenGive ,_order.amountGive );
         orderFilled[_order.id] = true;

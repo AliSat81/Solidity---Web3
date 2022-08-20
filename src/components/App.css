@@ -39,7 +39,7 @@
 @media (max-width:992px) {
   .content {
     display: block;
-    overflow-y: auto
+    overflow-y:auto;
   }
 
   .content > div {
@@ -88,7 +88,7 @@
 }
 
 .card {
-  border-radius: 0px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -97,12 +97,12 @@
 }
 
 .card-header {
-  padding: 8px 4px;
+  padding: 8px 6px;
 }
 
 .card-body{
   flex: auto;
-  overflow-y: auto;
+  overflow-y: visible;
   overflow-x: hidden;
   position: relative;
   padding: 2px;
@@ -146,9 +146,24 @@
 }
 
 td.cancel-order {
-  cursor: pointer;
+  cursor: pointer!important;
 }
 
 tr.order-book-order {
   cursor: pointer;
+}
+
+.card-body .order-book{
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  margin-left: 10px!important;
+}
+
+.nav-link {
+  margin-right: 10px!important;
 }
