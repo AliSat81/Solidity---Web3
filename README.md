@@ -101,3 +101,15 @@ After Deploy Smart Cotracts in the previous step , you can run this so your exch
 ```bash
   truffle exec scripts\seed-exchange.js
 ```
+
+## Screenshots
+
+![App Screenshot](![image]![Alt text](./screenshots/Home.png?raw=true "App Screenshot"))
+
+![Ganache Deployment](![image]![Alt text](./screenshots/GanacheDeployment.png?raw=true "Ganache Deployment"))
+
+![Truffle Exchange Test](![image]![Alt text](./screenshots/TruffleExchangeTest.png?raw=true "Truffle Exchange Test"))
+
+![Truffle Token Test](![image]![Alt text](./screenshots/TruffleTokenTest.png?raw=true "Truffle Token Test"))
+
+![Price Chart](![image]![Alt text](./screenshots/PriceChart.png?raw=true "Price Chart"))
