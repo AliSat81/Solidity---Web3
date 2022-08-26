@@ -7,18 +7,14 @@ const privateKeys = process.env.PRIVATE_KEYS || ""
 
 
 module.exports = {
-
-
   networks: {
 
-    // development: {
-    //  host: "127.0.0.1",     // Localhost (default: none)
-    //  port: 7545,            // Standard Ethereum port (default: none)
-    //  network_id: "*",       // Any network (default: none)
-    // },
-
+    development: {
+     host: "127.0.0.1",     // Localhost (default: none)
+     port: 7545,            // Standard Ethereum port (default: none)
+     network_id: "*",       // Any network (default: none)
+    },
     kovan : {
-      networkCheckTimeout: 100000 ,
       provider : function () {
         return new HDWalletProvider(
           privateKeys.split(','),
