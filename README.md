@@ -87,7 +87,7 @@ Then in your Terminal run
 ```bash
   truffle migrate [Your Network Name]
 ```
-Thats all 😁😉\
+Thats all 😉\
 \
 Also this Contracts Deployed on Kovan testnet and this are the accounts :
 ```code
