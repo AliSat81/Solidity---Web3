@@ -60,6 +60,7 @@
     "redux-logger": "3.0.6",
     "regenerator-runtime": "^0.13.9",
     "reselect": "4.1.6",
+    "serve": "^14.0.1",
     "solidity-coverage": "0.7.21",
     "stream-browserify": "^3.0.0",
     "stream-http": "^3.2.0",
@@ -71,7 +72,8 @@
     "web3": "1.7.4"
   },
   "scripts": {
-    "start": "set PORT = process.env.PORT && react-app-rewired start",
+    "start": "serve -s build",
+    "dev": "set PORT = process.env.PORT && react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
