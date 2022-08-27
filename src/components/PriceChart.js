@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import { connect } from 'react-redux'
 import Chart from 'react-apexcharts'
-import { chartOptions , dummyData } from './PriceChart.config'
+import { chartOptions } from './PriceChart.config'
 import { priceChartLoadedSelector , priceChartSelector } from '../store/selectors'
 import Spinner from './Spinner'
 

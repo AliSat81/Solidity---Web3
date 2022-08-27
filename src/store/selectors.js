@@ -1,8 +1,7 @@
 import { createSelector } from "reselect"
-import { get, groupBy, maxBy, reject , minBy} from 'lodash'
+import { get, groupBy, maxBy , minBy} from 'lodash'
 import { ETHER_ADDRESS , tokens, ether, GREEN, RED ,formatBalance} from '../helpers'
 import moment from "moment"
-import { etherDepositAmountChanged } from "./actions"
 
 
 const account = (state) => get(state ,'web3.account',false)

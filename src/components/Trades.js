@@ -54,7 +54,7 @@ function mapStateToProps(state){
     return{
         filledOrdersLoaded : filledOrdersLoadedSelector(state),
         filledOrders : filledOrdersSelector(state),
-        //orderFilling : orderFillingSelector(state)
+        orderFilling : orderFillingSelector(state)
     }
 }
 

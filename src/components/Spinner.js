@@ -1,7 +1,7 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 export default function Spinner({type}){
-    if(type=='table'){
+    if(type==='table'){
     return(
         <tbody>
             <tr>

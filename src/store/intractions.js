@@ -24,7 +24,7 @@ import {
      orderMade
     } from "./actions"
 import { ETHER_ADDRESS } from '../helpers'
-let counter = 0
+//let counter = 0
 export const loadWeb3 = (dispatch) => {
     let web3 = new Web3(Web3.givenProvider || 'http://localhost:7545')
     dispatch(web3Loaded(web3))
@@ -95,8 +95,8 @@ export const subscribeToEvents = async ( exchange , dispatch ) => {
     exchange.events.Order({} , (error ,event) =>{
         dispatch(orderMade(event.returnValues))
     })  
-    console.log('subscribeToEvents',counter )
-    counter++
+    // console.log('subscribeToEvents',counter )
+    // counter++
     //debugger
 }
 

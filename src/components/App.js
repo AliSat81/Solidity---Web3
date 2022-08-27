@@ -26,7 +26,7 @@ class App extends Component {
     async localBlockchainData(dispatch){
       const web3 = loadWeb3(dispatch)
       const networkId = await web3.eth.net.getId()
-      const accounts = await loadAccount(web3 ,dispatch)
+      await loadAccount(web3 ,dispatch)
       const token = await loadToken(web3 ,networkId ,dispatch)
       if(!token){
         window.alert('Token contract not deployed to the current network. Please select another network with Metamask')

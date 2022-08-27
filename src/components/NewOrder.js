@@ -11,10 +11,10 @@ import {
    } from '../store/selectors'
 import { 
     buyOrderAmountChanged , 
-    buyOrderMaking, 
+    //buyOrderMaking, 
     buyOrderPriceChanged , 
     sellOrderAmountChanged , 
-    sellOrderMaking, 
+    //sellOrderMaking, 
     sellOrderPriceChanged
     } from '../store/actions'
     import { makeBuyOrder , makeSellOrder } from '../store/intractions'
