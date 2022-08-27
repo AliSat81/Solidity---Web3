@@ -4,6 +4,15 @@
 This project contain two smart contract for ERC20 token and exchange.\
 Also there is a test file that writed with 'mocha' and run with truffle suite .
 
+
+## Demo
+
+The live version of the program :\
+[dApp-token-exchange](https://dapp-token-exchange-alisat.herokuapp.com/ "Heroku")\
+\
+Make sure you have Metamask installed on your browser .
+
+
 ## Requirements
 For run the app :\
 Metamask\
