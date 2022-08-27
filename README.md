@@ -10,11 +10,11 @@ Also there is a test file that writed with 'mocha' and run with truffle suite .
 The live version of the program :\
 [dApp-token-exchange](https://dapp-token-exchange-alisat.herokuapp.com/ "Heroku")\
 \
-Make sure you have Metamask installed on your browser \
+Make sure you have Metamask installed on your browser and your network set on Kovan testnet ,\
 Also if you on mobile , make sure you use a browser that support web3 . like :\
-  Brave
-  Metamask browser
-  Trustwallet browser & etc .
+Brave \
+Metamask browser \
+Trustwallet browser & etc .
 
 
 ## Requirements
