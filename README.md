@@ -1,4 +1,3 @@
-
 # Decentralized Ethereum Token Exchange
 
 This project contain two smart contract for ERC20 token and exchange.\
